@@ -1,0 +1,18 @@
+{
+  "name": "community-scout",
+  "version": "0.1.0",
+  "description": "Discover public community-mentioned projects through resumable file handoffs.",
+  "author": {
+    "name": "Community Scout contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Community Scout",
+    "shortDescription": "Discover community-mentioned open-source projects.",
+    "longDescription": "Fetch supported public community feeds into resumable local files and hand deduplicated candidates to an Agent without creating a database.",
+    "developerName": "Community Scout contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Find community-mentioned projects for this requirement and give me the artifact files."
+  }
+}

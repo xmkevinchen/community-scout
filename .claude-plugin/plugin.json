@@ -1,0 +1,8 @@
+{
+  "name": "community-scout",
+  "version": "0.1.0",
+  "description": "Discover public community-mentioned projects through resumable file handoffs.",
+  "author": {
+    "name": "Community Scout contributors"
+  }
+}

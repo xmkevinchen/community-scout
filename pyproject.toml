@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "community-scout"
+version = "0.1.0"
+description = "Create resumable file workspaces from public community recommendations."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+community-scout = "community_scout.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Community Scout"
+  short_description: "Discover community leads into resumable local files"
+  default_prompt: "Use $community-scout to find community-mentioned projects for my requirement and return the artifact paths."
